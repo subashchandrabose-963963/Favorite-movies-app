@@ -1,6 +1,6 @@
 
 import React, { useState } from "react";
-import { Button, TextField, MenuItem, Box, Typography, Paper } from "@mui/material";
+import { Button, TextField, MenuItem, Box } from "@mui/material";
 import PropTypes from "prop-types";
 import type { FavoriteEntry } from "../api/favoritesMedia";
 

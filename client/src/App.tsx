@@ -4,7 +4,7 @@ import { fetchFavorites, addFavorite, updateFavorite, deleteFavorite } from "./a
 import type { FavoriteEntry } from "./api/favoritesMedia";
 import EntryForm from "./components/EntryForm";   
 import FavoritesTable from "./components/FavoritesTable";
-import { Dialog, DialogTitle, DialogContent, Divider, Snackbar, Alert, IconButton, CircularProgress, Box, Typography } from "@mui/material";
+import { Dialog, DialogTitle, DialogContent, Snackbar, Alert, IconButton, CircularProgress, Box, Typography } from "@mui/material";
 import CloseIcon from "@mui/icons-material/Close";
 
 export default function App() {
